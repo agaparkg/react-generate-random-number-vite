@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px 40px;
+}
+
+.number-display {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  font-size: 3em;
+  line-height: 1.1;
+  border: 1px solid black;
+}
+
+.btn-actions{
+  display: flex;
+  column-gap: 10px;
+}
+
+.btn {
+  min-width: 80px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #00a2ff;
+  color: #fff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.btn:hover {
+  background-color: #099bef;
+}
+
+.btn:focus,
+.btn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+
